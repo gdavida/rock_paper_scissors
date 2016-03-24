@@ -1,4 +1,10 @@
+require "pry"
 
+puts "LET'S PLAY ROCK, PAPER, SCISSORS!"
+print "PLAYER 1, please choose:\nrock\npaper\nscissors"
+player_1_choice=gets.chomp
+print "PLAYER 2, please choose:\nrock\npaper\nscissors"
+player_2_choice=gets.chomp
 
 #if their choices are the same, its a tie!
 if player_1_choice == player_2_choice
