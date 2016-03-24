@@ -21,3 +21,13 @@ elsif player_1_choice == "paper"
 	else
 		return "PLAYER 2 WINS"
 	end
+	#if player one chooses scissors,
+#first check scenario where player 1 would win,
+#or else we can assume player 2 would win.
+elsif player_1_choice == "scissors"
+	if player_2_choice == "paper"
+		return "PLAYER 1 WINS!"
+	else
+		return "PLAYER 2 WINS"
+	end
+end
