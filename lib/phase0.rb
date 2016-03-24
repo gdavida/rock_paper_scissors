@@ -12,3 +12,12 @@ elsif player_1_choice == "rock"
 	else
 		return "PLAYER 2 WINS"
 	end
+#if player one chooses paper,
+#first check scenario where player 1 would win,
+#or else we can assume player 2 would win.
+elsif player_1_choice == "paper"
+	if player_2_choice == "rock"
+		return "PLAYER 1 WINS!"
+	else
+		return "PLAYER 2 WINS"
+	end
