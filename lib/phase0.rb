@@ -22,27 +22,27 @@ if player_1_choice == player_2_choice
 #first check scenario where player 1 would win,
 #or else we can assume player 2 would win.
 elsif player_1_choice == "1" #rock
-	if player_2_choice == "2" #scissors
-		print "PLAYER 1 WINS!!"
-	else
-		print "PLAYER 2 WINS!!"
+	if player_2_choice == "3" #scissors
+		print "PLAYER 1 WINS!!\n rock crushes scissors."
+	else 
+		print "PLAYER 2 WINS!!\n paper covers rock"
 	end
 #if player one chooses paper,
 #first check scenario where player 1 would win,
 #or else we can assume player 2 would win.
 elsif player_1_choice == "2" #paper
 	if player_2_choice == "1"	#rock
-		print "PLAYER 1 WINS!!"
+		print "PLAYER 1 WINS!!\n paper covers rock"
 	else
-		print "PLAYER 2 WINS!!"
+		print "PLAYER 2 WINS!!\n scissors cuts paper"
 	end
 	#if player one chooses scissors,
 #first check scenario where player 1 would win,
 #or else we can assume player 2 would win.
 elsif player_1_choice == "3" #scissors
 	if player_2_choice == "2" #paper
-		print "PLAYER 1 WINS!!"
+		print "PLAYER 1 WINS!!\n scissors cuts paper"
 	else
-		print "PLAYER 2 WINS!!"
+		print "PLAYER 2 WINS!!\n rock crushes paper"
 	end
 end
